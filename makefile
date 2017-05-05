@@ -1,4 +1,4 @@
-OBJ = main.o wave.o screen.o #comm.o these 2 will be added later, but are now comments
+OBJ = main.o wave.o screen.o comm.o
 APPNAME = wave.a
 
 $(APPNAME) : $(OBJ)
